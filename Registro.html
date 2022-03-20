@@ -5,39 +5,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Fira+Sans+Extra+Condensed:wght@200&family=Mohave:wght@300;500&family=Rajdhani&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Login.css" />
+
     <title>Registro</title>
 </head>
 
 <body>
-    <header>The Locker</header>
-    <main>
-        <div class="containerRegistro">
-            <div class="registroIzq">
-                <h1>Ingresa tus datos</h1>
-                <p>Nombre:</p>
-                <input type="text">
-                <p>Apellidos:</p>
-                <input type="text">
-                <p>Edad:</p>
-                <input type="text">
-                <p>Sexo:</p>
-                <input type="text">
-                <p>Correo:</p>
-                <input type="text">
-                <p>Contraseña:</p>
-                <input type="password">
-            </div>
+    <header>
+        <nav>
+            <ul class="flexRow">
+                <div class="flexRow contenedorLogo">
+                    <div class="Logo">
+                        <li>
+                            <a href="">
+                                <h1>The Locker</h1>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="esquina">
+                    </div>
+                </div>
+                </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
 
-            <div class="registroDer">
-                <h1>Registro</h1>
+    <main>
+        <div class="contenedorPrincipal">
+            <div class="loginIzq">
+                <div class="">
+                    <form action="" method="post" class="inputs">
+                        <div class="cajasC">
+                            <p>Nombre:</p>
+                            <input class="cajaTexto" id="nombreCliente" name="nombreCliente" type="text" maxlength="15" minlength="2">
+                            <p>Apellido:</p>
+                            <input class="cajaTexto" id="apellidoCliente" name="apellidoCliente" type="text" maxlength="15" minlength="2">
+                            <p>Edad:</p>
+                            <input class="cajaTexto" id="edadCliente" name="edadCliente" type="number" maxlength="3" minlength="2">
+                            <p>Sexo:</p>
+                            <input class="cajaTexto" id="sexoCliente" name="sexoCliente" type="text" maxlength="8" minlength="1">
+                        </div>
+                        <p>Correo:</p>
+                        <input class="cajaTexto" id="correoCliente" name="correoCliente" type="text" maxlength="50">
+                        <p>Contraseña:</p>
+                        <input class="cajaTexto" id="password" name="password" type="password" minlength="8">
+                </div>
+                <div class="contenedorBoton">
+                    <button id="mybtn" type="submit" class="boton btn-registrar">Registrar</button>
+                </div>
+                </form>
+            </div>
+            <div class="loginDer">
+                <h2>Registro</h2>
                 <p>Rellena el formulario con todos tus datos luego presiona el botón registrarse.</p>
                 <p>¿Ya tienes una cuenta?</p>
-                <button>Iniciar Sesión</button>
+                <div class="contenedorBoton">
+                    <button class="boton btn-ingresar">Iniciar Sesión</a></button>
+                </div>
             </div>
         </div>
     </main>
 
-    <footer>Todos los derechos reservados</footer>
 </body>
 
 </html>
