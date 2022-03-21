@@ -1,6 +1,6 @@
 body {
     background-image: url('/img/Fondo.jpg');
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Dosis', cursive;
     margin: 0%;
 }
 
@@ -51,7 +51,7 @@ header li a {
     flex-direction: row;
     justify-content: center;
     margin: 3%;
-    margin-top: 7%;
+    margin-top: 9%;
     border-radius: 10px;
 }
 
@@ -82,22 +82,44 @@ p {
     text-align: justify;
 }
 
-.inputs {
-    display: flex;
-    flex-direction: column;
-}
-
 .cajaTexto {
     border: 0px none;
     padding: 5px;
     margin-bottom: 4%;
     background-color: #EFEFF1;
     color: rgb(49, 48, 48);
-    border-radius: 17px;
+    border-radius: 8px;
 }
 
 .cajaTexto:focus {
     outline: none;
+}
+
+.contenedorInputsRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorInputsColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    text-align: start;
+}
+
+.inputs {
+    padding: 1%;
+}
+
+.inputs input {
+    margin: 3%;
+}
+
+.inputColumn {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
 
 form {
