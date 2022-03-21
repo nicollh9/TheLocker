@@ -1,0 +1,157 @@
+body {
+    background-image: url('/img/Fondo.jpg');
+    font-family: 'Dosis', sans-serif;
+    margin: 0%;
+}
+
+header {
+    background-color: #064663;
+}
+
+header h1 {
+    margin: 0%;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+header li a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.contenedorLogo {
+    width: 20%;
+}
+
+.Logo {
+    text-align: end;
+    width: 100%;
+    background-color: #ECB365;
+    text-shadow: rgba(0, 0, 0, 0.597) 2px 2px 1px;
+}
+
+.esquina {
+    border-top: 70px solid #ECB365;
+    border-right: 70px solid #064663;
+}
+
+.ventanaP {
+    background-color: white;
+    color: #064663;
+    box-shadow: rgba(0, 0, 0, 0.712) 3px 4px 10px;
+    margin: 5%;
+    margin-top: 2%;
+    padding-bottom: 12px;
+}
+
+.tituloV {
+    font-size: 20px;
+    float: left;
+    margin-right: 60%;
+    padding-left: 12px;
+}
+
+.generar {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.der {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+
+.list {
+    width: 30%;
+    height: 20%;
+    margin-top: 5%;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #064663;
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    outline: 0;
+}
+
+.botonGenerar {
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    align-items: center;
+    padding: 5px;
+    width: 10%;
+    margin-left: 10.5%;
+    box-shadow: rgba(0, 0, 0, 0.712) 3px 4px 10px;
+    border-radius: 7px;
+}
+
+.nomCampos {
+    background-color: #064663;
+    color: #fff;
+    margin: 5%;
+    margin-top: -4%;
+    display: inline-block;
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.712) 3px 4px 10px;
+}
+
+.titulo1 {
+    float: right;
+    margin-right: 15%;
+}
+
+.titulo2 {
+    float: left;
+    margin-left: 15%;
+}
+
+.contenedorTabla {
+    background-color: #fff;
+    color: #064663;
+    box-shadow: rgba(0, 0, 0, 0.712) 3px 4px 10px;
+    margin: 5%;
+    margin-top: -4%;
+    width: 90%;
+}
+
+.tabla {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+th,
+td {
+    border-bottom: 1px solid #064663;
+    padding: 7px;
+}
+
+footer {
+    background-color: #064663;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    width: 98.5%;
+    bottom: 0px;
+    position: absolute;
+    bottom: 0px;
+}
