@@ -5,49 +5,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Fira+Sans+Extra+Condensed:wght@200&family=Mohave:wght@300;500&family=Rajdhani&family=Satisfy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/catalogo.css">
     <title>Catalogo</title>
 </head>
 
 <body>
-    <header>
-        <h1 class="titulo">
-            <a href="">The Locker</a>
-        </h1>
-        <nav>
-            <ul class="">
-                <li><a href="">Mujer</a></li>
-                <li><a href="">Hombre</a></li>
-                <li><a href="">Niños</a></li>
-                <li><a href="">Explorar</a></li>
-            </ul>
-        </nav>
-        <nav>
-            <ul>
-                <li><a href="">Usuario</a></li>
-                <li><a href="">Salir</a></li>
-            </ul>
-        </nav>
-    </header>
-
     <main>
-        <div class="tarjeta">
-            <img class="imagenTarjeta" src="https://i.pinimg.com/originals/69/51/d3/6951d3a58296c1e2886972c9f187478c.jpg" alt="imagen">
-            <div class="infoTarjeta">
-                <h2 class="tituloTarjeta">Pantalones ajustados</h2>
-                <b class="descripcionTarjeta">Descripción del producto</b>
-                <b class="cantidadTarjeta">Cantidad</b>
-                <div class="pieTarjeta">
-                    <button class="botonTarjeta">
-                        <span class="material-icons">shopping_cart</span>
-                        <a href=""> Agregar al carrito </a>
-                    </button>
-                    <b>Precio: L. 500  </b>
-                </div>
+        <header>
+            <nav>
+                <ul class="flexRow">
+                    <div class="flexRow contenedorLogo">
+                        <div class="Logo">
+                            <li>
+                                <a href="">
+                                    <h1>The Locker</h1>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="esquina">
+                        </div>
+                    </div>
+                    </div>
+
+                </ul>
+            </nav>
+        </header>
+
+        <div class="catalogoTitulo">
+            <H2>Control Catalogo</H2>
+        </div>
+        <div class="contenedor">
+            <div class="contenedorProductos">
+
+            </div>
+
+            <div class="formulario">
+                <form action="" method="post" class="inputs">
+                    <div class="inputColumn">
+                        <label>Buscar:</label>
+                        <input class="cajaTexto" id="nombreCliente" name="nombreCliente" type="text" maxlength="15" minlength="2">
+                    </div>
+                    <div class="inputColumn">
+                        <label>Id:</label>
+                        <input class="cajaTexto" id="Edad" name="Edad" type="text" maxlength="15" minlength="2">
+                    </div>
+                    <div class="inputColumn">
+                        <label>Nombre:</label>
+                        <input class="cajaTexto" id="nombreCliente" name="nombreCliente" type="text" maxlength="15" minlength="2">
+
+                    </div>
+                    <div class="inputColumn">
+                        <label>Cantidad:</label>
+                        <input class="cajaTexto" id="Edad" name="Edad" type="text" maxlength="15" minlength="2">
+                    </div>
+                    <div>
+                        <div class="combo">
+                            <label>Mostrar:</label>
+                            <select name="list">
+                             <option>Visible / Oculto</option>
+                             <option>option 2</option>
+                            </select>
+                        </div>
+                        <button class="Btn1">Activar</button>
+                        <button class="Btn2">Quitar</button>
+                    </div>
+
+                </form>
             </div>
         </div>
     </main>
-
-    <footer>Todos los derechos reservados</footer>
 </body>
+<footer>Todos los derechos reservados</footer>
 
 </html>
